@@ -1,0 +1,42 @@
+/* HEADER */
+
+header {
+	font-size: 3em;
+	font-family: 'Arvo', serif;
+	padding: 20px;
+	margin: 0px;
+}
+
+.main-header {
+	background: #fff url(img/Paris.jpg) no-repeat center top;
+	background-size: 100%;
+	padding-bottom: 100px;
+}
+
+/* NAVIGATION */
+.nav {background: #fff url(img/lightpaperfibers.png) no-repeat center top;
+	background-size: 100%;
+	padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-family: 'arvo', serif;
+}
+a:link {
+	color: #2C3E50;
+} 
+
+a:visited {
+  color: #2C3E50;
+}
+
+a:hover {
+  background: #ECF0F1;
+  color: #2980B9;
+}
+
+a:active {
+  background: #ECF0F1;
+  color: #2980B9;
+}
