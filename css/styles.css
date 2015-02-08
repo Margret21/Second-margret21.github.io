@@ -14,14 +14,13 @@ header {
 }
 
 /* NAVIGATION */
-.nav {background: #fff url(../img/dark_linen.png) no-repeat center top;
+.nav {background: #fff url(../img/dark_linen.png) center top;
 	background-size: 100%;
 	padding: 10px;
     list-style-type: none;
     margin: 0;
     text-decoration: none;
-    font-size: 1.25em;
-    font-family: 'arvo', serif;
+    font: 1.25em 'arvo', serif;
 }
 a:link {
 	color: #2980B9;
@@ -69,7 +68,7 @@ section {
 	width: 50px;
 }
  
-/* Margin & Padding */
+/* MARGIN & PADDING */
 
 .style-tile em {font-size: 30px;
 }
@@ -82,10 +81,10 @@ p {
 	margin-top: 10px;
 }
  
-/* Clearfix - Do Not Remove */
+/* CLEARFIX KEEP */
 .clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
 
-/* Color Pallette*/
+/* COLOR PALETTE */
 .style-tile .color-1 {
 	background: #2980B9;
 }
@@ -106,5 +105,14 @@ p {
 	background: url("../img/contemporary_colorized.png");
 }
 
-
+/* MEDIA QUERIES */
+@MEDIA (max-width: 850px) {
+	.main-header {
+		background-position: fixed;
+		width: 850px;}
+	.main-header h1, h2 {
+		font-size: 1em;
+		font-height: .5em;
+		margin-bottom: 100px}
+}
 
