@@ -1,0 +1,110 @@
+/* HEADER */
+
+header {
+	font-size: 3em;
+	font-family: 'Arvo', serif;
+	padding: 20px;
+	margin: 0px;
+}
+
+.main-header {
+	background: #222 url(../img/Paris.jpg) no-repeat center top;
+	background-size: 100%;
+	padding-bottom: 100px;
+}
+
+/* NAVIGATION */
+.nav {background: #fff url(../img/dark_linen.png) no-repeat center top;
+	background-size: 100%;
+	padding: 10px;
+    list-style-type: none;
+    margin: 0;
+    text-decoration: none;
+    font-size: 1.25em;
+    font-family: 'arvo', serif;
+}
+a:link {
+	color: #2980B9;
+} 
+
+a:visited {
+  	color: #2980B9;
+}
+
+a:hover {
+	background: transparent;
+  	color: #2C3E50;
+}
+
+a:active {
+	background: transparent;
+  	color: #2C3E50;
+}
+
+/* BIO */
+.bio, body{
+	background-image: url(../img/witewall_colorized.png);
+	font-family: 'arvo', serif;
+}
+
+/* STYLE-TILE */
+
+section {
+	margin: 20px 0;
+}
+ 
+.color-1,
+.color-2,
+.color-3,
+.pattern-1,
+.pattern-2,
+.pattern-3, 
+.imagery-1,
+.imagery-2,
+.imagery-3 {
+	border: 1px solid #000;
+	float: left;
+	margin: 0 10px;
+	height: 50px;
+	width: 50px;
+}
+ 
+/* Margin & Padding */
+
+.style-tile em {font-size: 30px;
+}
+.style-tile h1, h2, em {
+	font-height: 50%;
+	margin: 10px;
+}
+
+p {
+	margin-top: 10px;
+}
+ 
+/* Clearfix - Do Not Remove */
+.clearfix {clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+
+/* Color Pallette*/
+.style-tile .color-1 {
+	background: #2980B9;
+}
+.style-tile .color-2 {
+	background: #2C3E50;
+}
+.style-tile .color-3 {
+	background: linen;
+}
+
+.style-tile .pattern-1 {
+	background: url("../img/dark_linen.png");
+}
+.style-tile .pattern-2 {
+	background: url("../img/witewall_colorized.png");
+}
+.style-tile .pattern-3 {
+	background: url("../img/contemporary_colorized.png");
+}
+
+
+
