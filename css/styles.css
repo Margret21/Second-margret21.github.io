@@ -13,6 +13,10 @@ header {
 	padding-bottom: 100px;
 }
 
+body {
+	font-family: 'raleway', sans-serif;
+}
+
 /* NAVIGATION */
 .nav {background: #fff url(../img/dark_linen.png) center top;
 	background-size: 100%;
@@ -21,6 +25,7 @@ header {
     margin: 0;
     text-decoration: none;
     font: 1.25em 'arvo', serif;
+    color: #2980B9;
 }
 a:link {
 	color: #2980B9;
@@ -43,7 +48,7 @@ a:active {
 /* BIO */
 .bio, body{
 	background-image: url(../img/witewall_colorized.png);
-	font-family: 'arvo', serif;
+	font-family: 'raleway', sans-serif;
 }
 
 /* STYLE-TILE */
